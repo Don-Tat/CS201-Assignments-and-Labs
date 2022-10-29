@@ -1,0 +1,25 @@
+Assignment 2
+Write a grading program for an instructor whose course has the following policies:
+• Two quizzes, each graded on the basis of 10 points, are given.
+• One midterm exam and one final exam, each graded on the basis of 100 points, are given.
+• The final exam counts for 50 percent of the grade, the midterm counts for 25 percent, and the
+two quizzes together count for a total of 25 percent. (Do not forget to normalize the quiz scores.
+They should be converted to percentages before they are averaged in.)
+Any grade of 90 percent or more is an A, any grade between 80 and 89 percent is a B, any grade
+between 70 and 79 percent is a C, any grade between 60 and 69 percent is a D, and any grade
+below 60 percent is an F.
+The program should read in the student’s scores and display the student’s
+record, which consists of two quiz scores, two exam scores, the student’s total score for the entire
+course, and the final letter grade. The total score is a number in the range 0 to 100, which
+represents the weighted average of the student’s work.
+Define and use a class for the student record. The class should have instance variables for the
+quizzes, midterm, final, total score for the course, and final letter grade. The class should have
+input and output methods. The input method should not ask for the final numeric grade, nor
+should it ask for the final letter grade. The class should have methods to compute the overall
+numeric grade and the final letter grade. These last two methods will be void methods that set the
+appropriate instance variables. Remember, one method can call another method. If you prefer,
+you can define a single method that sets both the overall numeric score and the final letter grade,
+but if you do this, use a helping method. Your program should use all the methods described here.
+Your class should have a reasonable set of accessor and mutator methods, whether or not your
+program uses them.
+You may add other methods if you wish.

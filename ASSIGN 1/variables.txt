@@ -1,0 +1,14 @@
+If u = 2, v = 3, w = 5, x = 7, and y = 13, what is the value of each of the following expressions,
+assuming int variables?
+a. u + v * w + x
+    24
+b. u + y % v * w + x
+    14
+c. u++ / v + u++ * w
+    15
+d. u*x%v+w+y
+    20
+e. (x<5|| y>x)
+    true
+f. (x>3 || y<10 && z==15)
+    true
